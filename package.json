@@ -73,6 +73,7 @@
         "yorkie": "^2.0.0"
     },
     "dependencies": {
+        "aplayer": "file:",
         "balloon-css": "^1.0.3",
         "promise-polyfill": "8.2.0",
         "smoothscroll": "0.4.0"
