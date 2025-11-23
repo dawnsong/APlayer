@@ -105,7 +105,7 @@ class APlayer {
 
     initAudio() {
         this.audio = document.createElement('audio');
-        this.audio.id = this.options.id;
+        this.audio.id = this.options.id4audio;
         this.audio.preload = this.options.preload;
 
         for (let i = 0; i < this.events.audioEvents.length; i++) {

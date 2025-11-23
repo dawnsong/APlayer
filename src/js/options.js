@@ -1,7 +1,7 @@
 export default (options) => {
     // default options
     const defaultOption = {
-        id:'aplayer0',
+        id4audio:'aplayer0',
         container: options.element || document.getElementsByClassName('aplayer')[0],
         mini: options.narrow || options.fixed || false,
         fixed: false,
