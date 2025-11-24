@@ -107,7 +107,8 @@ class APlayer {
         this.audio = document.createElement('audio');
         this.audio.id = this.options.id4audio;
         this.audio.preload = this.options.preload;
-        document.body.appendChild(this.audio); //add to DOM
+        this.audio.crossOrigin = 'anonymous';
+        document.body.appendChild(this.audio); //add to DOM, Xiaowei
 
         for (let i = 0; i < this.events.audioEvents.length; i++) {
             this.audio.addEventListener(this.events.audioEvents[i], (e) => {
